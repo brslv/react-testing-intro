@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  width: 400px;
+  margin: 100px auto;
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 0 1px 1px rgb(0, 0, 0, 0.1);
+}
+
+.App__quoteContainer {
+  flex: 1;
+}
+
+.App__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+button {
+  user-select: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 8px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
